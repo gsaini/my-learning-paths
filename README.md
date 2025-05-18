@@ -1,4 +1,4 @@
-# my-learning-paths
+# My Learning Paths
 
 Welcome to my personal learning repository! This repo is dedicated to documenting my journey through various learning paths, courses, and certifications across different domains, with a focus on cloud technologies, AI, and professional development.
 
@@ -27,7 +27,9 @@ Each directory in this repository represents a specific learning path or course.
 ## Achievements & Certifications
 
 - [**AWS Certified Machine Learning - Associate**](https://www.credly.com/badges/6143e4de-470b-427b-a623-94e9431ec648)
-  *Issued: March 2025*  
+  *Issued: March 2025*
+
+  <img src="https://images.credly.com/size/240x240/images/1a634b4e-3d6b-4a74-b118-c0dcb429e8d2/image.png" alt="AWS Certified Machine Learning - Associate Badge" width="120"/>
 
 This section will be updated as I complete courses and earn certifications.
 
