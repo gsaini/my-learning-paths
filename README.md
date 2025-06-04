@@ -20,7 +20,7 @@ Each directory in this repository represents a specific learning path or course.
 - Records of achievements, badges, and certificates
 
 ## Current Learning Paths
-
+- [Post Graduate Program in Artificial Intelligence & Machine Learning: Business Applications (The University of Texas)](https://www.mygreatlearning.com/pg-program-online-artificial-intelligence-machine-learning?utm_source=eportfolio&gl_source=Linkedin&gl_campaign=Eportfolio)
 - [Generative AI Leader (Google Cloud)](./Generative%20AI%20Leader/README.md)
 
 
