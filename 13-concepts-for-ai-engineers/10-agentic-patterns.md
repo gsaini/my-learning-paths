@@ -180,6 +180,14 @@ Start simple (just ReAct + tools) and add patterns *only* when an eval gap shows
 
 ## Further Reading
 
-- Anthropic — *Building effective agents*
-- ReAct (Yao et al.), Reflexion (Shinn et al.), Tree-of-Thought (Yao et al.)
-- LangGraph cookbooks
+- Anthropic — [*Building effective agents*](https://www.anthropic.com/engineering/building-effective-agents)
+- [*ReAct: Synergizing Reasoning and Acting in Language Models*](https://arxiv.org/abs/2210.03629) — Yao et al., 2022
+- [*Reflexion: Language Agents with Verbal Reinforcement Learning*](https://arxiv.org/abs/2303.11366) — Shinn et al., 2023
+- [*Tree of Thoughts: Deliberate Problem Solving with LLMs*](https://arxiv.org/abs/2305.10601) — Yao et al., 2023
+- [*Chain-of-Thought Prompting Elicits Reasoning in LLMs*](https://arxiv.org/abs/2201.11903) — Wei et al., 2022
+- [*Self-Consistency Improves Chain of Thought Reasoning*](https://arxiv.org/abs/2203.11171) — Wang et al., 2022
+- [*Toolformer: Language Models Can Teach Themselves to Use Tools*](https://arxiv.org/abs/2302.04761) — Schick et al., 2023
+- [LangGraph documentation & tutorials](https://langchain-ai.github.io/langgraph/)
+- [LangGraph cookbooks (GitHub)](https://github.com/langchain-ai/langgraph/tree/main/examples)
+- [OpenAI — *A practical guide to building agents*](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf)
+- [Model Context Protocol (MCP) — Anthropic](https://modelcontextprotocol.io/)
