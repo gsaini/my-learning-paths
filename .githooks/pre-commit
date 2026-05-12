@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+# Lint staged markdown files. Skip if dev deps aren't installed.
+if [ ! -x "node_modules/.bin/lint-staged" ]; then
+  echo "pre-commit: lint-staged not installed; skipping markdown lint. Run 'pnpm install' to enable."
+  exit 0
+fi
+exec pnpm exec lint-staged
