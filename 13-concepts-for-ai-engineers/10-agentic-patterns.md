@@ -189,5 +189,7 @@ Start simple (just ReAct + tools) and add patterns *only* when an eval gap shows
 - [*Toolformer: Language Models Can Teach Themselves to Use Tools*](https://arxiv.org/abs/2302.04761) — Schick et al., 2023
 - [LangGraph documentation & tutorials](https://langchain-ai.github.io/langgraph/)
 - [LangGraph cookbooks (GitHub)](https://github.com/langchain-ai/langgraph/tree/main/examples)
+- [Anthropic Cookbook (GitHub)](https://github.com/anthropics/anthropic-cookbook) — runnable notebooks for tool use, agents, RAG, and evals
+- [Anthropic Courses (GitHub)](https://github.com/anthropics/courses) — structured lessons on prompting, tool use, and real-world prompting
 - [OpenAI — *A practical guide to building agents*](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf)
 - [Model Context Protocol (MCP) — Anthropic](https://modelcontextprotocol.io/)
