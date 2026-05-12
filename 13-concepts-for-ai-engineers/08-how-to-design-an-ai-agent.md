@@ -81,6 +81,7 @@ Decide: when does the agent **read** memory? When does it **write**? Who **clear
 | **Graph / state machine** | Predictable flow with branching (LangGraph) |
 
 Add **stop conditions** explicitly:
+
 - Max steps (e.g., 25)
 - Token / cost budget
 - Loop detection (same call repeated)

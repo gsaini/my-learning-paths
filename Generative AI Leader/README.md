@@ -17,6 +17,7 @@ The Generative AI Leader path is designed for business and technical leaders to 
 ## My Learning Journey
 
 Here, I'll document:
+
 - Resource links and references
 - Notes and key takeaways from each module
 - Achievements and badges earned

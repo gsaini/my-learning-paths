@@ -25,6 +25,7 @@ Models don't see characters or words — they see **tokens**, sub-word units pro
 - Typical: ~4 chars or ~0.75 words per token in English
 
 Why this matters:
+
 - **Context limits** are measured in tokens.
 - **Cost** is per-token.
 - Different languages tokenize at different rates (English most efficient).
@@ -42,6 +43,7 @@ For each layer:
 Stack 30–100+ such layers. Add positional encoding so order matters. That's the architecture.
 
 Key building blocks:
+
 - **Embeddings** — token IDs → high-dim vectors.
 - **Multi-head attention** — N parallel attention "heads."
 - **Causal mask** — token *t* can only see tokens 1..t-1 (autoregressive).

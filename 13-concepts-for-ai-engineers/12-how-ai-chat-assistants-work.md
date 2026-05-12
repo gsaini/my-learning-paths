@@ -159,6 +159,7 @@ Letting the model write to memory is powerful but needs **boundaries**: what to 
 User: *"What's the status of order #4429?"*
 
 Behind the scenes:
+
 1. Auth → identify user.
 2. Load user profile + last 5 messages.
 3. Recognize order intent → call `lookup_order(id="4429")`.

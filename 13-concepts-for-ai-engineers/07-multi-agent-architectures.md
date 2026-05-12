@@ -20,6 +20,7 @@ The cost: more tokens, more latency-per-handoff, more failure modes (handoff dri
 ## The Five Common Patterns
 
 ### 1. Orchestrator–Worker
+
 A lead agent decomposes the task, dispatches subtasks to workers, and synthesizes results.
 
 ```
@@ -38,6 +39,7 @@ Used by Anthropic's research agent. **Best for:** parallel research, multi-sourc
 ---
 
 ### 2. Hierarchical / Supervisor
+
 Tree of agents — managers above, specialists below. Useful when subtasks themselves need decomposition.
 
 ```
@@ -53,6 +55,7 @@ Tree of agents — managers above, specialists below. Useful when subtasks thems
 ---
 
 ### 3. Network / Swarm
+
 Peer agents that hand off to each other based on task type. No fixed hierarchy.
 
 ```
@@ -66,6 +69,7 @@ Used by **OpenAI Swarm**, **CrewAI**. **Best for:** customer-support style routi
 ---
 
 ### 4. Sequential Pipeline
+
 Agents in a fixed chain — each transforms the output of the previous one.
 
 ```
@@ -77,6 +81,7 @@ Agents in a fixed chain — each transforms the output of the previous one.
 ---
 
 ### 5. Debate / Consensus
+
 Multiple agents argue or vote; an aggregator picks the best answer.
 
 **Best for:** high-stakes reasoning, reducing hallucination.

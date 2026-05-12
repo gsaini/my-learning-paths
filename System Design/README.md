@@ -37,6 +37,7 @@ System design is a critical skill for software engineers, architects, and techni
 ## My Learning Journey
 
 Here, I'll document:
+
 - Resource links and references
 - Notes and key takeaways from each topic
 - Achievements and badges earned

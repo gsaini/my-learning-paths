@@ -33,3 +33,22 @@ A learning path covering the foundational concepts every AI engineer should know
 **Then build agents** → 3 (Agents) → 10 (Patterns) → 8 (Design) → 7 (Multi-Agent) → 1 (MCP)
 
 **Then ship it** → 4 (Coding Workflow) → 5 (Evals) → 12 (Chat Assistants) → 11 (RL)
+
+---
+
+## Local Setup (Markdown Linting)
+
+This repo lints staged markdown files on commit using [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) + [lint-staged](https://github.com/lint-staged/lint-staged), wired up as a native git hook in [`../.githooks/`](../.githooks/) (no husky). After cloning, run:
+
+```sh
+pnpm install
+```
+
+`pnpm install` triggers the `prepare` script, which points git at the versioned hooks directory (`git config core.hooksPath .githooks`). From then on, every commit auto-fixes and validates any staged `*.md` files.
+
+Useful scripts:
+
+- `pnpm run lint:md` — lint every markdown file
+- `pnpm run lint:md:fix` — auto-fix every markdown file
+
+Rules live in [`../.markdownlint.json`](../.markdownlint.json) — tuned for prose-heavy learning content (e.g. line-length and code-fence-language checks are disabled).

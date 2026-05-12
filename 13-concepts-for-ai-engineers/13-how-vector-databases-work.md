@@ -44,25 +44,30 @@ Most text embeddings are designed for **cosine** similarity.
 ## ANN Index Types
 
 ### HNSW — Hierarchical Navigable Small World
+
 - Multi-layer graph; greedy navigation from coarse to fine.
 - **Default for most modern vector DBs.**
 - Great recall and speed; high memory cost.
 
 ### IVF — Inverted File Index
+
 - Cluster vectors into N partitions; search only the most likely ones.
 - Lower memory; tunable speed/recall trade-off.
 - Often combined with PQ.
 
 ### PQ — Product Quantization
+
 - Compress each vector into a few bytes.
 - Massive memory savings; small recall hit.
 - Often paired with IVF: **IVF-PQ**.
 
 ### Flat
+
 - No index — brute force.
 - Use for small corpora (<100k) or as a recall baseline.
 
 ### DiskANN / Vamana
+
 - Disk-resident graph indexes; scale to billions on commodity hardware.
 
 ---

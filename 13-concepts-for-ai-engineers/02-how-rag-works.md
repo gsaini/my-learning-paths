@@ -77,11 +77,13 @@ Bad chunking ruins retrieval. Some heuristics:
 Two axes:
 
 **Retrieval quality**
+
 - **Recall@k** — did we fetch the right chunks?
 - **MRR / nDCG** — are good chunks ranked high?
 - **Hit rate** — did *any* relevant chunk make it in?
 
 **Generation quality**
+
 - **Faithfulness** — does the answer stay grounded in the retrieved context?
 - **Answer relevance** — does it actually address the question?
 - **Context precision** — how much of the retrieved context was useful?

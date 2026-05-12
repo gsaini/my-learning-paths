@@ -48,33 +48,40 @@ Each layer is a knob.
 ## Core Techniques
 
 ### 1. **Compression**
+
 - Summarize old turns once they fall out of relevance.
 - Replace verbose tool outputs with concise representations.
 - Strip whitespace, comments, repeated boilerplate.
 
 ### 2. **Prioritization & Ordering**
+
 - Put critical instructions at the **top** (system prompt) or **bottom** (just before the answer) — models pay more attention there.
 - Beware *"lost in the middle"* — content in the middle of a long context gets ignored.
 
 ### 3. **Retrieval shaping**
+
 - Choose chunk size and k carefully.
 - Rerank to put the best chunks closest to the question.
 - Deduplicate near-identical chunks.
 
 ### 4. **Few-shot selection**
+
 - Pick examples *similar to the current input* (dynamic few-shot).
 - Cover edge cases the model usually fails on.
 - Keep examples short — they consume tokens linearly.
 
 ### 5. **Output schema constraints**
+
 - JSON schema, regex, or grammar-constrained decoding.
 - Tells the model *exactly* what shape you expect.
 
 ### 6. **Prompt caching**
+
 - Cache the static prefix (system prompt, tools, docs).
 - Massive cost and latency savings (Anthropic, OpenAI, Google all support).
 
 ### 7. **Memory architecture**
+
 - **Short-term:** scratchpad in current context.
 - **Long-term:** vector store + selective recall.
 - **Procedural:** reusable skills/tools.
@@ -101,6 +108,7 @@ You're a budget allocator. Spend tokens where they buy the most quality.
 ## The "Context Rot" Problem
 
 As context grows:
+
 - Latency goes up (linearly to quadratically).
 - Cost goes up.
 - Quality often goes *down* past a threshold (~50–80k tokens for many models).

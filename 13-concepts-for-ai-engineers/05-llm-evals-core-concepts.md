@@ -36,22 +36,26 @@ Use the cheap layers continuously; reserve human eval for high-stakes changes.
 ## Categories of Evals
 
 ### 1. Reference-based (you have a ground truth)
+
 - **Exact match / regex** — for structured outputs, IDs, codes.
 - **BLEU / ROUGE / METEOR** — n-gram overlap (translation, summarization).
 - **F1, accuracy, recall** — for classification.
 - **HumanEval / MBPP** — code passes unit tests.
 
 ### 2. Reference-free (no single right answer)
+
 - **LLM-as-judge** — a strong model rates the output on rubrics.
 - **Pairwise comparison** — "Is A better than B?" — more reliable than absolute scores.
 - **Embedding similarity** — semantic closeness to a reference.
 
 ### 3. Human eval
+
 - Side-by-side comparisons.
 - Likert scales on rubrics (helpfulness, faithfulness, tone).
 - Expensive but the gold standard for nuanced quality.
 
 ### 4. Task-specific
+
 - **HumanEval / SWE-Bench** for code.
 - **MMLU / GPQA** for knowledge.
 - **RAGAS** for RAG faithfulness.

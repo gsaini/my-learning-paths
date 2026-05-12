@@ -77,11 +77,13 @@ Newer additions: **Sampling** (server asks the host's LLM to generate something)
 ## Strengths and Limitations
 
 **Strengths**
+
 - Single integration surface across hosts.
 - Local-first by default → privacy-friendly.
 - Open spec, multiple SDKs (Python, TS, Go, Rust, Java, C#).
 
 **Limitations**
+
 - Discoverability is still maturing (no central registry yet).
 - Auth/identity for remote servers is evolving (OAuth in newer specs).
 - Server quality varies — supply-chain risk on third-party servers.

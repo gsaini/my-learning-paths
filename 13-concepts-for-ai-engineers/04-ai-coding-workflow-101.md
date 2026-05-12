@@ -13,31 +13,37 @@ The **AI coding workflow** is the end-to-end loop developers use to ship product
 ```
 
 ### 1. Spec — Define the outcome
+
 - Write a short PRD or task description.
 - Acceptance criteria: *what does "done" look like?*
 - Constraints: language, framework, style, performance, security.
 
 ### 2. Context — Give the model what it needs
+
 - Relevant files, schemas, types, examples.
 - Project conventions (CLAUDE.md, READMEs, style guides).
 - Failing test, error message, or screenshot if debugging.
 
 ### 3. Plan — Get alignment before code
+
 - Ask the AI for a plan first; review it.
 - Catch wrong assumptions cheaply, before generation.
 - For big tasks, break into smaller atomic chunks.
 
 ### 4. Generate — Let the model code
+
 - Small diffs > sweeping rewrites.
 - Prefer edits to existing files over new files.
 - Keep the AI on a single concern at a time.
 
 ### 5. Verify — Don't trust, test
+
 - Run the type checker, linter, tests.
 - Run the feature manually in a real environment (esp. UI).
 - Read the diff line-by-line — don't merge what you haven't read.
 
 ### 6. Iterate — Feed errors back
+
 - Paste failing test output → AI fixes.
 - Tighten the spec when output drifts.
 - Commit checkpoints frequently so you can revert.

@@ -25,6 +25,7 @@
 ```
 
 At each step `t`:
+
 1. Agent observes **state** `s_t`.
 2. Agent picks an **action** `a_t` according to its **policy** π.
 3. Environment returns **reward** `r_t` and the new state `s_{t+1}`.
@@ -53,6 +54,7 @@ At each step `t`:
 ## Exploration vs Exploitation
 
 The fundamental tradeoff:
+
 - **Exploit** — choose the action you currently believe is best.
 - **Explore** — try something new to discover better actions.
 
@@ -63,22 +65,30 @@ Strategies: ε-greedy, softmax, Upper Confidence Bound (UCB), entropy bonuses.
 ## Algorithm Families
 
 ### Value-based
+
 Learn Q-values; pick the action with the highest Q.
+
 - **Q-learning** — classic table-based.
 - **DQN (Deep Q-Network)** — neural net approximator. Atari-level breakthroughs.
 
 ### Policy-based
+
 Directly learn the policy π that maps states to actions.
+
 - **REINFORCE** — vanilla policy gradient.
 - **PPO (Proximal Policy Optimization)** — workhorse of modern RL; stable, scalable.
 - **TRPO** — earlier, more conservative cousin of PPO.
 
 ### Actor-Critic
+
 Combine both: an **actor** chooses actions, a **critic** estimates value.
+
 - **A2C / A3C, SAC, DDPG**.
 
 ### Model-based
+
 Learn a model of the environment, plan inside it.
+
 - **AlphaZero, MuZero** — search + learned model.
 - More sample-efficient; harder to scale.
 
