@@ -25,6 +25,7 @@ Each directory in this repository represents a specific learning path or course.
 
 - [Post Graduate Program in Artificial Intelligence & Machine Learning: Business Applications (The University of Texas)](https://www.mygreatlearning.com/pg-program-online-artificial-intelligence-machine-learning?utm_source=eportfolio&gl_source=Linkedin&gl_campaign=Eportfolio)
 - [Generative AI Leader (Google Cloud)](./Generative%20AI%20Leader/README.md)
+- [AI Engineer Learning Path 2026 (3-month roadmap)](./ai-engineer-2026.md)
 
 ## Achievements & Certifications
 
