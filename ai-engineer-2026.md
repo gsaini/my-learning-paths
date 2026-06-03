@@ -55,7 +55,7 @@ Sharpening existing RAG skills beyond a basic vector store.
 
 ### 6. Guardrails and LLM Security
 
-- [ ] Prompt-injection defense fundamentals
+- [ ] [Prompt-injection defense fundamentals](./prompt-injection-defense-fundamentals.md)
 - [ ] **NeMo Guardrails** or **Guardrails AI**
 - [ ] **Instructor** and structured outputs for reliable typed responses
 
