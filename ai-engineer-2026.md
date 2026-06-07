@@ -63,8 +63,8 @@ Sharpening existing RAG skills beyond a basic vector store.
 
 Extending existing MCP knowledge and comparing orchestration approaches.
 
-- [ ] Build a custom **MCP server**
-- [ ] **A2A** (agent-to-agent) protocol
+- [x] Build a custom **MCP server**
+- [x] **A2A** (agent-to-agent) protocol
 - [ ] **PydanticAI**, **OpenAI Agents SDK**, **Claude Agent SDK** — compare against LangGraph
 
 ## 3-Month Plan
